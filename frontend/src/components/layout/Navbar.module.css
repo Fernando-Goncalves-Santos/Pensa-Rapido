@@ -96,7 +96,7 @@
 
 }
 
-@media (width <= 360px) {
+@media (width <= 450px) {
 
     .actions_btn {
         padding: .6rem 1.2rem;
