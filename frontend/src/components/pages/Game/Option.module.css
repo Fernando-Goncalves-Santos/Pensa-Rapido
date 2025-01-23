@@ -1,0 +1,46 @@
+.alternative {
+  background-color: rgba(32, 164, 243, 0.7);
+  color: #f8f9fa;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.alternative:hover {
+  background-color: #20a4f3;
+}
+
+.right {
+  background-color: #06d6a0;
+  color: #f8f9fa;
+  font-weight: bold;
+  cursor: initial;
+  opacity: 1;
+}
+
+.right:hover {
+  background-color: #06d6a0;
+  opacity: 1;
+}
+
+.wrong {
+  background-color: #ef476f;
+  color: #f8f9fa;
+  opacity: 1;
+  cursor: initial;
+}
+
+.selected {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0 10px #495057;
+}
+
+.wrong:hover {
+  opacity: 1;
+  background-color: #ef476f;
+}

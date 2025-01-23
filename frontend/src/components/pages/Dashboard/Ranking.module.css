@@ -1,0 +1,38 @@
+
+.ranking_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+    color: #F8F9FA;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1.5rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title img {
+    max-width: 60px;
+}
+
+.ranking_container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #BAFF29;
+}
+
+@media (width <=360px) {
+    .title {
+        flex-direction: column;
+    }
+}

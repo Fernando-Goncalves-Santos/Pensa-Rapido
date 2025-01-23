@@ -1,0 +1,59 @@
+.leaderboard_container {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #212529;
+    color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+}
+
+.leaderboard_title {
+    background-color: #F8F9FA;
+}
+
+.leaderboard_container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #212529;
+    border-bottom: 2px solid #F8F9FA;
+    padding-bottom: 0.5rem;
+}
+
+.leaderboard_container p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: #F8F9FA;
+}
+
+.leaderboard_container h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: #BAFF29;
+}
+
+.results_container{
+    padding: 1rem;
+}
+
+.my_rank {
+    color: #BAFF29 !important	;
+}
+
+@media (width <=610px) {
+    .leaderboard_title h2 {
+        font-size: 1rem;
+    }    
+}
+
+@media (width <=410px) { 
+    .leaderboard_container h3,
+    .leaderboard_container p {
+        font-size: 1rem;
+    }
+
+}

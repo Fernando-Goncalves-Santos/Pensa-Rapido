@@ -1,0 +1,45 @@
+.results_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.results_container p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.results_container img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.restart_btn {
+    margin-top: 5rem;
+    border: none;
+    background-color: #F8F9FA;
+    color: #212529;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.restart_btn:hover {
+    background-color: #BAFF29;
+    color: #212529;
+}
+
+.restart_btn a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.player_score {
+    color: #BAFF29;
+}
