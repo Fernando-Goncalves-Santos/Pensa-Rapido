@@ -3,7 +3,7 @@ name: Keep Alive
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *" # Executa a cada 10 minutos
+    - cron: "0 */5 * ? * *" # Executa a cada 10 minutos
 
 jobs:
   ping:
