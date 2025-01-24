@@ -13,7 +13,7 @@ const SelectCategory = () => {
   const context = useContext(GameContext);
   // Verificar se o contexto está disponível
   if (!context) {
-    return navigate("/");
+    return;
   }
   const { getQuestions } = context;
 
