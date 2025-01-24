@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Send Keep-Alive Request
         run: |
-          curl -X GET https://pensa-rapido.onrender.com
+          curl -X GET https://pensa-rapido.onrender.com/selectcategory
