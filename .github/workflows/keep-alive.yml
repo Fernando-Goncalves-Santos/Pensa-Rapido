@@ -1,0 +1,13 @@
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # Executa a cada 5 minutos
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Keep-Alive Request
+        run: |
+          curl -X GET https://meu-app.onrender.com
