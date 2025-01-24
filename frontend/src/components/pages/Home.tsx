@@ -11,7 +11,7 @@ const Home = () => {
 
   // Verificar se o contexto está disponível
   if (!context || !gameContext) {
-    return null;
+    return <p>Carregando...</p>;
   }
 
   const { authenticated } = context;
