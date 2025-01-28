@@ -13,7 +13,7 @@ O projeto está disponível online e você pode acessá-lo através do link 👉
 ## 🛠️ Tecnologias Utilizadas
 Frontend: React.js, HTML, CSS, Typescript
 
-Gerenciamento de Estado: React Hooks (useState, useEffect)
+Gerenciamento de Estado: React Hooks (useState, useEffect, context API)
 
 Estilização: CSS puro
 
