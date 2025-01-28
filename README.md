@@ -5,7 +5,7 @@ Bem-vindo ao Pensa Rápido, um jogo de trivia simples e interativo para testar s
 O Pensa Rápido é um jogo de trivia que apresenta perguntas de diferentes categorias: esportes, artes, ciências, história e geografia. O objetivo é responder corretamente às perguntas exibidas na tela. O jogo é projetado para ser simples e direto e atualmente conta com dois modos de jogo: "Mestre da Categoria" no qual o jogador escolhe uma entre as 5 categorias existentes e responde a 10 perguntas e "Desafio Pensa Rápido" no qual o jogador recebe questões de todas as categorias disponíveis de forma aleatória sendo eliminado caso erre apenas uma pergunta.
 
 ## 🚀 Como Executar o Projeto
-O projeto está disponível online e você pode acessá-lo através do link 👉 **[Jogue agora](https://pensa-rapido.onrender.com){:target="_blank"}** 👈 
+O projeto está disponível online e você pode acessá-lo através do link 👉 **[Jogue agora](https://pensa-rapido.onrender.com)** 👈 
 
 **Obs:** O projeto está hospedado gratuitamente no Render. Por isso, é comum que aplicações inativas tenham suas execuções temporariamente suspensas para otimizar recursos. Quando isso acontece, o cold start (inicialização do serviço) pode levar cerca de **30 segundos** até que as requisições para a API sejam normalizadas. Para minimizar esse impacto, implementamos um workflow com GitHub Actions que mantém o serviço ativo, garantindo uma experiência mais ágil para os usuários.
 
