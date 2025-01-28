@@ -51,8 +51,6 @@ Abra um Pull Request no repositório original.
 ## 👨‍💻 Autor
 Fernando Gonçalves Santos
 
-GitHub: Fernando-Goncalves-Santos
-
 LinkedIn: [Fernando](www.linkedin.com/in/fernando-goncalves-santos)
 
 Divirta-se jogando Pensa Rápido! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue no repositório. 🎮
