@@ -19,7 +19,7 @@ Estilização: CSS puro
 
 Ferramentas de Desenvolvimento: Vite (para build e hot-reloading)
 
-Backend: NodeJS, Express, MongoDB, JWT (para autenticação), Mongoose
+Backend: NodeJS, Express, MongoDB, JWT (para autenticação), Mongoose, BcryptJs (para criptografia)
 
 
 ## 🎮 Como Jogar
